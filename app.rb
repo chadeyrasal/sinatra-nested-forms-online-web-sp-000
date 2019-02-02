@@ -22,7 +22,7 @@ module FormsLab
 
       params[:pirate][:ships].each do |details|
       end
-      
+
       erb :'pirates/show'
     end
 
