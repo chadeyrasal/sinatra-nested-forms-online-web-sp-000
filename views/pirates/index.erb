@@ -10,6 +10,9 @@
   <p>Hey hey hey</p>
   <ul>
     <% @pirates.each do |pirate| %>
+      <li><%= pirate.name %></li>
+      <li><%= pirate.weight %></li>
+      <li><%= pirate.height %></li>
     <% end %>
   </ul>
 </body>
