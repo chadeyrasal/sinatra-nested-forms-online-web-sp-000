@@ -3,6 +3,11 @@ require './environment'
 module FormsLab
   class App < Sinatra::Base
 
+    # this is the route the READ all the pirates
+    get '/pirates' do
+      
+    end
+
     get '/' do
       erb :index
     end
