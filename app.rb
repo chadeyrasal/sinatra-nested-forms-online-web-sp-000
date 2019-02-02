@@ -29,11 +29,5 @@ module FormsLab
       erb :'pirates/show'
     end
 
-
-  @courses = Course.all
-
-  erb :student
-end
-
   end
 end
