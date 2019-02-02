@@ -10,7 +10,7 @@ module FormsLab
 #    end
 
     get '/' do
-      erb :index
+      erb :new
     end
 
     get '/new' do
